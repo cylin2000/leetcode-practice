@@ -24,7 +24,7 @@ public class Problem1 implements Problem{
     }
 
     // 解法1：直接循环两次，时间复杂度O(n2)，空间复杂度O(1)
-    public int[] twoSum(int[] nums, int target) {
+    private int[] twoSum(int[] nums, int target) {
         for (int i = 0; i < nums.length; i++) {
             for (int j = i + 1; j < nums.length; j++) {
                 if (nums[i] + nums[j] == target) {
@@ -36,7 +36,7 @@ public class Problem1 implements Problem{
     }
 
     //解法2：使用HashMap
-    public int[] twoSum2(int[] nums, int target) {
+    private int[] twoSum2(int[] nums, int target) {
         HashMap<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < nums.length; i++) {
             int complement = target - nums[i];
