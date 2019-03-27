@@ -45,8 +45,7 @@ public class Problem2 implements Problem {
         //l1=[]
         //l2=[0,1]     当一个列表为空时，即出现空列表。
         n1 = null;
-        n2 = new ListNode(0);
-        n2.next = new ListNode(1);
+        n2.next.next = null;
         result = addTwoNumbers2(n1, n2);
         System.out.println("Input is " + getListNodeString(n1) + "," + getListNodeString(n2));
         System.out.println("Output is " + getListNodeString(result));
