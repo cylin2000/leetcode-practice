@@ -36,6 +36,7 @@ public class Problem3 implements Problem {
         length = lengthOfLongestSubstring(input);
         System.out.println("length of longest sub string for " + input + " is " + length);
 
+
     }
 
     //结题，使用HashMap判断之前的字符在不在
