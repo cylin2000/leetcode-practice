@@ -1,8 +1,5 @@
 package com.caiyunlin;
 
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
-
-import java.util.List;
 
 public class Problem2 implements Problem {
     /*
