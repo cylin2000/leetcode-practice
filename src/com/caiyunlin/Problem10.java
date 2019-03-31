@@ -77,7 +77,7 @@ public class Problem10 implements Problem {
     }
 
     //论坛解法：动态规划
-    //这个没有很好理解，而且如果p第一个字母是*的话，数组会溢出.
+    //TODO:这个没有很好理解，而且如果p第一个字母是*的话，数组会溢出.
     private boolean isMatch(String s, String p) {
         int sLen = s.length(), pLen = p.length();
         boolean[][] memory = new boolean[sLen + 1][pLen + 1];
