@@ -24,7 +24,7 @@ public class Problem3 implements Problem {
     public void Run() {
         String input;
         int length;
-        input = "abcabcbb";
+        input = "";
         length = lengthOfLongestSubstring(input);
         System.out.println("length of longest sub string for " + input + " is " + length);
 
@@ -40,17 +40,20 @@ public class Problem3 implements Problem {
     }
 
     //结题，使用HashMap判断之前的字符在不在
-    public int lengthOfLongestSubstring(String input) {
-        String[] arr = input.split("");
-        HashMap<String, String> map = new HashMap<String, String>();
+    private int lengthOfLongestSubstring(String s) {
+        if (s.equals("")) {
+            return 0;
+        }
+        String[] arr = s.split("");
+        HashMap<String, String> map = new HashMap<>();
         int maxLength = 0;
         int currentLength = 0;
-        for (int i = 0; i < arr.length; i++) {
+        for (String ss : arr) {
             currentLength = currentLength + 1;
-            if (map.containsKey(arr[i])) {
+            if (map.containsKey(ss)) {
                 currentLength = 1;
             }
-            map.put(arr[i], arr[i]);
+            map.put(ss, ss);
             if (currentLength > maxLength) {
                 maxLength = currentLength;
             }
