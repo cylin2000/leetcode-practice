@@ -1,6 +1,7 @@
 package com.caiyunlin;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
@@ -28,38 +29,35 @@ public class Problem18 implements Problem {
         System.out.println(result);
     }
 
+    //参考三数之和， 循环两次，最后是两两逼近
     private List<List<Integer>> fourSum(int[] nums, int target) {
+        Arrays.sort(nums);
         List<List<Integer>> result = new ArrayList<>();
         for (int i = 0; i < nums.length - 3; i++) {
             for (int j = i + 1; j < nums.length - 2; j++) {
-                for (int k = j + 1; k < nums.length - 1; k++) {
-                    for (int l = k + 1; l < nums.length; l++) {
-                        if (nums[i] + nums[j] + nums[k] + nums[l] == target) {
-                            List<Integer> temp = new ArrayList<>();
-                            temp.add(nums[i]);
-                            temp.add(nums[j]);
-                            temp.add(nums[k]);
-                            temp.add(nums[l]);
-                            if (!isDuplicate(result, temp)) {
-                                result.add(temp);
-                            }
+                if (i == 0 || (i > 0 && nums[i] != nums[i - 1])) {  // 跳过可能重复的答案
+                    int l = j + 1, r = nums.length - 1, sum = target - nums[i] - nums[j];
+                    while (l < r) {
+                        if (nums[l] + nums[r] == sum) {
+                            result.add(Arrays.asList(nums[i], nums[j], nums[l], nums[r]));
+                            while (l < r && nums[l] == nums[l + 1]) l++;
+                            while (l < r && nums[r] == nums[r - 1]) r--;
+                            l++;
+                            r--;
+                        } else if (nums[l] + nums[r] < sum) {
+                            while (l < r && nums[l] == nums[l + 1]) l++;   // 跳过重复值
+                            l++;
+                        } else {
+                            while (l < r && nums[r] == nums[r - 1]) r--;
+                            r--;
                         }
                     }
                 }
             }
+
         }
         return result;
     }
 
-    private boolean isDuplicate(List<List<Integer>> results, List<Integer> temp) {
-        Collections.sort(temp);
-        for (List<Integer> arr : results) {
-            Collections.sort(arr);
-            if (temp.get(0).equals(arr.get(0)) && temp.get(1).equals(arr.get(1)) && temp.get(2).equals(arr.get(2)) && temp.get(3).equals(arr.get(3))) {
-                return true;
-            }
-        }
-        return false;
-    }
 
 }
