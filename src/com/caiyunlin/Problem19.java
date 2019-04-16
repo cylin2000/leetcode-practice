@@ -27,6 +27,9 @@ public class Problem19 implements Problem {
         PrintNode(result);
     }
 
+    //注意官方解法： 可以使用Dummy节点放在 head 前面，可以用来应付第一个节点被删除的特殊情况
+    //https://leetcode-cn.com/articles/remove-nth-node-from-end-of-list/
+
     //解题思路：得出总数，得出正序然后跳过对应节点(需要循环两次链表)
     public ListNode removeNthFromEnd(ListNode head, int n) {
         int totalNodes = head == null ? 0 : 1;
