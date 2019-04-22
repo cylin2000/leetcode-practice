@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a4b888b-665c-45de-ac9d-10522d9da33a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/caiyunlin/Problem20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/caiyunlin/Problem21.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/caiyunlin/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/caiyunlin/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/caiyunlin/Problem19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/caiyunlin/Problem19.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,21 +14,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/caiyunlin/Problem19.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="30" column="72" selection-start-line="30" selection-start-column="72" selection-end-line="30" selection-end-column="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/caiyunlin/Problem20.java">
+        <entry file="file://$PROJECT_DIR$/src/com/caiyunlin/Problem21.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="82" column="18" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="18" />
+            <state relative-caret-position="323">
+              <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -37,8 +27,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/caiyunlin/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+            <state relative-caret-position="133">
+              <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/caiyunlin/Problem19.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="514">
+              <caret line="86" column="41" lean-forward="true" selection-start-line="86" selection-start-column="41" selection-end-line="86" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -46,11 +45,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/caiyunlin/Problem2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2109">
+            <state relative-caret-position="708">
               <caret line="129" column="16" selection-start-line="129" selection-start-column="16" selection-end-line="129" selection-end-column="16" />
               <folding>
                 <element signature="method#addTwoNumbers#0;class#Problem2#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/caiyunlin/Problem20.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="556">
+              <caret line="90" column="28" lean-forward="true" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -92,8 +100,9 @@
         <option value="$PROJECT_DIR$/src/com/caiyunlin/Problem18.java" />
         <option value="$PROJECT_DIR$/src/com/caiyunlin/Problem8.java" />
         <option value="$PROJECT_DIR$/src/com/caiyunlin/Problem19.java" />
-        <option value="$PROJECT_DIR$/src/com/caiyunlin/Main.java" />
         <option value="$PROJECT_DIR$/src/com/caiyunlin/Problem20.java" />
+        <option value="$PROJECT_DIR$/src/com/caiyunlin/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/caiyunlin/Problem21.java" />
       </list>
     </option>
   </component>
@@ -131,8 +140,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -142,7 +151,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555375593360" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555895053448" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../github/hsweb3-demo" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -204,7 +213,8 @@
       <workItem from="1554852024158" duration="5851000" />
       <workItem from="1555238861886" duration="1311000" />
       <workItem from="1555287624611" duration="7790000" />
-      <workItem from="1555372596395" duration="2859000" />
+      <workItem from="1555372596395" duration="3681000" />
+      <workItem from="1555893123504" duration="1464000" />
     </task>
     <task id="LOCAL-00001" summary="add problem2">
       <created>1553607121192</created>
@@ -290,11 +300,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555294951845</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add Problem20">
+      <created>1555375661786</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1555375661786</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100794000" />
+    <option name="totallyTimeSpent" value="103080000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -309,7 +326,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1977612" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19989339" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -394,7 +411,8 @@
     <MESSAGE value="add Problem17 , fix Problem3,5" />
     <MESSAGE value="add Problem18" />
     <MESSAGE value="add Problem19 两种解法" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Problem19 两种解法" />
+    <MESSAGE value="add Problem20" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Problem20" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -492,13 +510,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1140">
           <caret line="60" column="38" selection-start-line="60" selection-start-column="38" selection-end-line="60" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/caiyunlin/Problem11.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -634,23 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/caiyunlin/Problem19.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="30" column="72" selection-start-line="30" selection-start-column="72" selection-end-line="30" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/caiyunlin/Problem2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2109">
-          <caret line="129" column="16" selection-start-line="129" selection-start-column="16" selection-end-line="129" selection-end-column="16" />
-          <folding>
-            <element signature="method#addTwoNumbers#0;class#Problem2#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/caiyunlin/Problem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -658,17 +652,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/caiyunlin/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/caiyunlin/Problem11.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        <state relative-caret-position="323">
+          <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="32" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/caiyunlin/Problem20.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="82" column="18" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="18" />
+        <state relative-caret-position="556">
+          <caret line="90" column="28" lean-forward="true" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/caiyunlin/Problem2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="708">
+          <caret line="129" column="16" selection-start-line="129" selection-start-column="16" selection-end-line="129" selection-end-column="16" />
+          <folding>
+            <element signature="method#addTwoNumbers#0;class#Problem2#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/caiyunlin/Problem19.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="86" column="41" lean-forward="true" selection-start-line="86" selection-start-column="41" selection-end-line="86" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/caiyunlin/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/caiyunlin/Problem21.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
         </state>
       </provider>
     </entry>

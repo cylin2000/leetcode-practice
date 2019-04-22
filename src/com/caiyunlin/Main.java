@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
         Problem p;
-        p = new Problem20();
+        p = new Problem21();
         p.Run();
     }
 }
